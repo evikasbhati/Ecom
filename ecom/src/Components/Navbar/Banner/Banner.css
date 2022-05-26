@@ -1,0 +1,9 @@
+/* .Banner{
+  
+} */
+.Ban{display: flex;
+    color: rgb(202, 56, 56);
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+}

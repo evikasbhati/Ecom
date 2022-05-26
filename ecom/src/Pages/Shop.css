@@ -1,0 +1,26 @@
+.title_shop{
+    margin: 20px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.filter_container{
+    display: flex;
+    justify-content: space-between;
+}
+.fil_button{
+    padding: 5px;
+    margin:0px 5px;
+    background-color: transparent;
+    box-shadow: 1px 1px 2px 0px;
+}
+
+.filter_info{
+    font-weight: 400;
+    font-size: 15px;
+    margin-right: 5px;
+}
+#fill_option{
+    margin: 0px 2px;
+    font-weight: 400;
+}

@@ -1,0 +1,39 @@
+.add_product_container{
+    display: flex;
+}
+.add_newproduct{
+    flex: 4;
+    padding: 20px;
+    box-shadow: 0px 0px 25px -10px;
+    margin: 10px 20px;
+}
+.addproduct_form{
+    display: flex;
+    flex-direction: column;
+}
+.addproduct_image_container{
+    display: flex;
+}
+.addproduct_item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.addproduct_input{
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 10px 20px;
+    width: 200px;
+}
+.add_product_button{
+    padding: 5px 30px ;
+    font-size: 20px;
+    color: white;
+    background-color: #21beed;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 20px;
+    width: 150px;
+}

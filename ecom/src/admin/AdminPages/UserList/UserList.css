@@ -1,0 +1,33 @@
+.userlist_container{
+    display: flex;
+    margin: 0px 5px;
+    
+}
+ .userlist{
+     flex:4 ;
+     margin: 10px;
+ }
+ .userlist_title{
+     font-weight: 600;
+     font-size: 30px;
+     margin: 10px 20px;
+ }
+ .datagrid_container{
+     height: 600px;
+     width: 100%;
+    margin: 10px 5px 10px 2px;
+    padding: 20px;
+    box-shadow: 0px 0px 25px -10px;
+    border-radius: 10px;
+    padding: 20px;
+ }
+ .userlist_edit{
+     cursor: pointer;
+     color: #21beed;
+ }
+ .userlist_delete{
+    cursor: pointer;
+    color: #b31015;
+    margin-left: 10px;
+
+ }

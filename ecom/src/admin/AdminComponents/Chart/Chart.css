@@ -1,0 +1,11 @@
+.chart_container{
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 25px -10px;
+    border-radius: 10px;
+}
+.responsiveContainer{
+    padding: 5px;
+    margin: 5px;
+
+}

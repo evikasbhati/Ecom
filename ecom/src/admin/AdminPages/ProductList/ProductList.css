@@ -1,0 +1,42 @@
+.productlist_container{
+    display: flex;
+}
+.productlist{
+    flex:4;
+}
+.productlist_item{
+    display: flex;
+    align-items: center;
+}
+.productlist_row_title{
+    margin-left: 10px;
+}
+.productlist_img{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+
+}
+.produlist_title{
+    font-weight: 600;
+     font-size: 30px;
+     margin: 10px 20px;
+}
+.productgrid_container{
+    height: 600px;
+    width: 100%;
+   margin: 10px 5px 10px 2px;
+   padding: 20px;
+   box-shadow: 0px 0px 25px -10px;
+   border-radius: 10px;
+   padding: 20px;
+}
+.productlist_edit{
+    cursor: pointer;
+    color: #21beed;
+}
+.productlist_delete{
+   cursor: pointer;
+   color: #b31015;
+   margin-left: 10px;
+}

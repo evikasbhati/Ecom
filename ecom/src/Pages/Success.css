@@ -1,0 +1,13 @@
+.succ_cont{
+    background-color:#f6f7f5;
+    width: 100%;
+    height: 100vh;
+}
+.succ_head_cont{
+    background-color: #65f7ce;
+    height: 50px;
+    width: 250px;
+}
+.success_head{
+    color: white;
+}

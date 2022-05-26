@@ -1,0 +1,109 @@
+.cart_page_contanier{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+   
+}
+.title{
+    font-size: xx-large;
+    text-align: center;
+}
+.top_items{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 10px;
+}
+.top_button{
+    padding: 10px;
+    background-color: #fcba03;
+    color:rgb(7, 7, 7);
+    box-shadow: 0px 1px 2px 0px black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.span_text{
+    text-decoration: underline;
+    display: flex;
+    
+}
+.h3{
+    font-weight: 300;
+    margin: 0px 5px; ;
+}
+
+.product_container{
+    display: flex;
+    box-shadow: 1px 1px 24px 2px;
+    margin-left: 10px;
+}
+
+.imgcheck{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    box-shadow: 0px 1px 4px 0px;
+    margin: 10px 20px;
+}
+.pro_det{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 10px 50px  ;
+}
+.pro_name{
+    margin: 10px 0px;
+
+}
+.pro_but_add{
+    display: flex;
+    margin-bottom: 50px;
+}
+.pro_add_cont{
+    margin-left: 200px;
+}
+.add_pro{
+    padding: 5px;
+    border-radius: 25px;
+    margin: 5px;
+    height: 50PX;
+    width: 50PX;
+    align-items: center;
+    justify-content: center;
+    border-color: white;
+    background-color: #fcba03;
+    box-shadow: 0px 1px 2px 0px ;
+}
+.add_pr{
+    padding: 5px;
+    border-radius: 25px;
+    margin: 5px;
+    height: 50PX;
+    width: 50PX;
+    align-items: center;
+    justify-content: center;
+    border-color: white;
+    background-color: #fcba03;
+    border: none;
+    /* box-shadow: 0px 1px 2px 0px ; */
+}
+
+.price_st{
+    font-size: x-large;
+}
+.checkout_contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid rgb(231, 230, 230);
+    margin-left: 150px;
+    padding: 20px 50px;
+    box-shadow: 1px 1px 24px 2px;
+}
+.checkout_butt{
+    padding: 5px;
+    height: 45px;
+    width: 170px;
+    border-radius: 5px;
+    background-color: #fcba03;
+    box-shadow: 0px 1px 2px 0px black;
+}

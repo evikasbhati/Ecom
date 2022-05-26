@@ -1,0 +1,62 @@
+.footer{
+    position: relative;
+    bottom: 0;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(226, 93, 15);   
+    justify-content: space-around; 
+    padding: 20px;
+}
+.about_us{
+    display: flex;
+    flex-direction: column;
+    
+}
+.get_in_touch{
+    display: flex;
+    flex-direction: column;
+}
+.follow_us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_head{
+    margin-bottom: 10px;
+}
+.f_list{
+    font-weight: 700;
+    margin: 5px 0px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.f_list:hover{
+    transform: scale(1.5);
+}
+.f_icon{
+    margin: 4px 0px;
+    color: beige;
+    font-size: large;
+    transition:  0.5s ease;
+}
+.f_icon:hover{
+    transform: scale(2);
+}
+.footer_banner{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.f_ban{
+    color: black;
+    font-weight: 600;
+    font-size: large;
+}

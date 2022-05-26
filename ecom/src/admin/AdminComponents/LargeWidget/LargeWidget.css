@@ -1,0 +1,40 @@
+.largeWidget_container{
+    flex: 2;
+    box-shadow: 0px 0px 25px -10px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 20px;
+}
+.largeWidget_title{
+    font-weight: 600;
+    font-size: 28px;
+}
+.tr_lw_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.tr_lw_button{
+    padding: 10px;
+    background-color: rgb(208, 205, 205);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.largeWidget_table{
+    width: 100%;
+    border-spacing: 10px;
+
+}
+.tr_lw_th{
+    text-align: left;
+    font-size: 20px;
+}
+.tr_lw_user{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.tr_lw_name{
+    margin-left: 10px;
+}

@@ -1,0 +1,102 @@
+.signup_container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8ceea;
+}
+.sign_hr{
+    width: 330px;
+ }
+.signup{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 20PX;
+    box-shadow: 1px 1px 8px 1px;
+    border-radius: 10px;
+}
+.sign_title_container{
+    display: flex;
+    
+   
+}
+.sign_title{
+    font-weight: 800;
+    text-align: left;
+    font-size: x-large;
+    margin: 5px 0px;
+}
+.sign_input_name{
+    width: 151px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: #fcfcfc;
+    color: gray;
+    box-shadow: -3px 1px 8px 1px;
+
+} 
+.sign_input_lname{
+    width: 170px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: #fcfcfc;
+    color: gray;
+    box-shadow: 3px 1px 8px 1px;
+
+} 
+.sign_input{
+    width: 330px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: #fcfcfc;
+    color: gray;
+    box-shadow: 1px 1px 8px 1px;
+
+} 
+.sign_name_container{
+    display: flex;
+    margin: 10px 0px;
+    
+}
+.name_container{
+    margin: 0px 5px;
+}
+.email_container{
+    margin: 10px 0px;
+
+}
+.phone_container{
+    margin: 10px 0px;
+
+}
+.password_container{
+    margin: 10px 0px;
+
+}
+.sign_sug{
+    font-weight: 300;
+    margin: 10px 0px;
+    text-align: justify;
+    font-size: small;
+}
+.signup_button{
+    background-color:#f54997 ;
+    padding: 5px 20px;
+    cursor: pointer;
+    box-shadow: 0px 1px 4px 0px;
+    color: black;
+    font-size: medium;
+    border: none;
+}
+.signup_button:hover{
+    background-color:#eb9dc0 ;
+    transition: ease 0.5s;
+}
